@@ -15,7 +15,6 @@ export const home = () => {
     homeScreen.id = "homeScreen";
     homeScreen.innerHTML = "<div class='title'>Welcome to The Krusty Krab</div>";
     homeScreen.innerHTML += "<h1>Try our world famous Krabby Patty today!</h1>"
-    homeScreen.innerHTML += "<button>Click to see our menu</button>";
     homeContainer.appendChild(homeScreen);
 
     content.appendChild(homeContainer)
