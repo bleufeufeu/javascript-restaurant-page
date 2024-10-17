@@ -1,0 +1,139 @@
+@font-face {
+  font-family: KrabbyPatty;
+  src: url("/assets/fonts/KrabbyPatty.ttf");
+}
+
+:root {
+  --krusty-red: rgb(186, 31, 39);
+}
+
+body {
+    background-image: url("../assets/images/background.webp");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    font-family: KrabbyPatty;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+
+#content {
+  margin: 50px 100px;
+}
+
+#krustyLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: inherit;
+  color: #fff;
+  font-size: 2rem;
+  text-shadow: inherit;
+}
+
+button:hover {
+  color: var(--krusty-red);
+  cursor: pointer;
+}
+
+.title {
+  color: var(--krusty-red);
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+#kkPic {
+  width: 50%;
+  border-radius: 10%;
+}
+
+#homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#homeScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul, #sidesContainer {
+  margin: 20px 100px;
+  padding: 0;
+  font-size: 1.3rem;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+.other-list {
+  display: flex;
+  flex-direction: column;
+}
+
+#teamBoard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.char-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.char-icon > img {
+  width: 60%;
+}
+
+.char-name {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > h1 {
+  margin: 0;
+}
+
+i {
+  font-size: 1.2rem;
+}
+
+i:hover {
+  color: var(--krusty-red);
+  cursor: pointer;
+}
